@@ -13,8 +13,11 @@ Download these scripts into your Linux jumpbox, e.g.
 
 ## Configuration
 
-Update `download-all.sh` script with your Pivotal Network Authroization Token.
-Find your Pivotal Network Authorization Token here:
+. Update `download_all.sh` script with your Pivotal Network Authroization Token.
+  You can find your Pivotal Network Authorization Token at the bottom of the Account page, e.g.
+  https://network.pivotal.io/users/dashboard/edit-profile
+. Update `import_all.sh` script with your OpsManager hostname, username, and password.
+. Update `download_all.sh` and `import_all.sh` scripts with the components you would like to download/import.
 
 
 

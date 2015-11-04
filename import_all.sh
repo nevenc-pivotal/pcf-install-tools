@@ -1,8 +1,9 @@
 #!/bin/bash
 #
-# upload_all.sh
+# import_all.sh
 #
-# Uploads Pivotal components into Pivotal Ops Manager, using upload API
+# Uploads (imports) Pivotal components into Pivotal Ops Manager, using upload API
+# Components will show up in the left navigation bar in Pivotal Ops Manager UI.
 #
 
 DOWNLOAD_DIRECTORY=/home/ubuntu/download_helper
