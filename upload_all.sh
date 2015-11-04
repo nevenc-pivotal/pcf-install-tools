@@ -49,19 +49,32 @@ function upload_component {
   fi
 }
 
-# elastic runtime (core)
+######################################################################################################
+# PCF 1.6 Components
+######################################################################################################
 
-upload_component cf-1.6.0.pivotal
+# elastic runtime (core) 
+  upload_component    cf-1.6.0.pivotal
 
-# optional
+# optional 
+  upload_component    p-rabbitmq-1.4.6.0.pivotal
+  upload_component    p-mysql-1.7.0.0.pivotal
+  upload_component    p-redis-1.4.10.0.pivotal
+  upload_component    p-spring-cloud-services-1.0.0.pivotal
+  upload_component    p-metrics-1.5.0.pivotal
+  upload_component    p-push-notification-service-1.3.5.35.pivotal
+  upload_component    Pivotal_Single_Sign-On_1.0.0.pivotal
+  upload_component    p-tracker-1.2.1.15.pivotal
 
-upload_component    p-rabbitmq-1.4.6.0.pivotal
-upload_component    p-mysql-1.7.0.0.pivotal
-upload_component    p-redis-1.4.10.0.pivotal
-upload_component    p-spring-cloud-services-1.0.0.pivotal
-upload_component    p-metrics-1.5.0.pivotal
-upload_component    p-push-notification-service-1.3.5.35.pivotal
-upload_component    Pivotal_Single_Sign-On_1.0.0.pivotal
-upload_component    p-tracker-1.2.1.15.pivotal
+######################################################################################################
+# PCF 1.6 Updated Components
+######################################################################################################
+
+# upload_component    cf-1.6.1.pivotal
+# upload_component    p-rabbitmq-1.4.7.0.pivotal
+# upload_component    p-redis-1.4.11.0.pivotal
+# upload_component    p-metrics-1.5.1.pivotal
+# upload_component    Pivotal_Single_Sign-On_1.0.1.pivotal
+# upload_component    p-tracker-1.3.1.1.pivotal
 
 

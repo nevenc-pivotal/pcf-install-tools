@@ -2,3 +2,19 @@
 
 These scripts help you import/install components into PCF OpsManager.
 
+## Installation
+
+Download these scripts into your Linux jumpbox, e.g.
+
+----
+    git clone https://github.com/nevenc-pivotal/pcf-install-tools.git
+    cd pcf-install-tools
+----
+
+## Configuration
+
+Update `download-all.sh` script with your Pivotal Network Authroization Token.
+Find your Pivotal Network Authorization Token here:
+
+
+
